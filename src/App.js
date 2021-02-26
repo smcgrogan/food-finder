@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import RestaurantList from "./components/RestaurantList.jsx";
+import SearchBar from "./components/SearchBar.jsx";
 
 function App() {
   return (
     <div>
+      <SearchBar title="Sumemr" />
       <RestaurantList title="Halle" />
     </div>
   );
