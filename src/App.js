@@ -6,7 +6,7 @@ import SearchBar from "./components/SearchBar.jsx";
 function App() {
   return (
     <div>
-      <SearchBar title="Sumemr" />
+      <SearchBar title="Summer" />
       <RestaurantList title="Halle" />
     </div>
   );
