@@ -1,8 +1,5 @@
 import React from "react";
 
-export default Class ListItem {
-  return(
-    <h1>ListItem Placeholder</h1>
-  )
+export default function ListItem() {
+  return <h1>ListItem Placeholder</h1>;
 }
-
