@@ -1,12 +1,6 @@
-import { React } from "react";
+import React, { useState } from "react";
 import ListItem from "./ListItem.jsx";
-
+import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 export default function RestaurantList(props) {
-  const { title } = props;
-  return (
-    <div>
-      <h1>This is {title} Restaurant List!</h1>
-      <ListItem />
-    </div>
-  );
+  return <ListItem />;
 }

@@ -1,9 +1,9 @@
-import React from "react";
-import {Form, Button, Card} from "react-bootstrap";
+import React, { useState } from "react";
+import { Form, Button, Card } from "react-bootstrap";
 
 export default function ListItem() {
-  const [name, setName] = useState('');
-  const [desc, setDesc] = useState('');
+  const [name, setName] = useState("");
+  const [desc, setDesc] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
